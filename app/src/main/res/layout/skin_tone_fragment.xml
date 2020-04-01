@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/Constraint"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:text="Which skin tone is closest to you?"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/lightestImageButton"
+        android:layout_width="125dp"
+        android:layout_height="313dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@android:color/transparent"
+        android:padding="0dp"
+        android:scaleType="fitXY"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:srcCompat="@color/lightestSkinTone" />
+
+    <ImageButton
+        android:id="@+id/lighterImageButton"
+        android:layout_width="125dp"
+        android:layout_height="313dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:background="@android:color/transparent"
+        android:padding="0dp"
+        android:scaleType="fitXY"
+        app:layout_constraintEnd_toStartOf="@+id/lightImageButton"
+        app:layout_constraintStart_toEndOf="@+id/lightestImageButton"
+        app:layout_constraintTop_toTopOf="@+id/lightestImageButton"
+        app:srcCompat="@color/lighterSkinTone" />
+
+    <ImageButton
+        android:id="@+id/lightImageButton"
+        android:layout_width="125dp"
+        android:layout_height="313dp"
+        android:layout_marginEnd="8dp"
+        android:background="@android:color/transparent"
+        android:padding="0dp"
+        android:scaleType="fitXY"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/lighterImageButton"
+        app:srcCompat="@color/lightSkinTone" />
+
+    <ImageButton
+        android:id="@+id/darkImageButton"
+        android:layout_width="125dp"
+        android:layout_height="313dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@android:color/transparent"
+        android:padding="0dp"
+        android:scaleType="fitXY"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lightestImageButton"
+        app:srcCompat="@color/darkSkinTone" />
+
+    <ImageButton
+        android:id="@+id/darkerImageButton"
+        android:layout_width="125dp"
+        android:layout_height="313dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:background="@android:color/transparent"
+        android:padding="0dp"
+        android:scaleType="fitXY"
+        app:layout_constraintEnd_toStartOf="@+id/darkestImageButton"
+        app:layout_constraintStart_toEndOf="@+id/darkImageButton"
+        app:layout_constraintTop_toTopOf="@+id/darkImageButton"
+        app:srcCompat="@color/darkerSkinTone" />
+
+    <ImageButton
+        android:id="@+id/darkestImageButton"
+        android:layout_width="125dp"
+        android:layout_height="313dp"
+        android:layout_marginEnd="8dp"
+        android:background="@android:color/transparent"
+        android:padding="0dp"
+        android:scaleType="fitXY"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/darkerImageButton"
+        app:srcCompat="@color/darkestSkinTone" />
+
+    <ImageView
+        android:id="@+id/lightestCheck"
+        android:layout_width="107dp"
+        android:layout_height="112dp"
+        app:layout_constraintBottom_toBottomOf="@+id/lightestImageButton"
+        app:layout_constraintEnd_toEndOf="@+id/lightestImageButton"
+        app:layout_constraintStart_toStartOf="@+id/lightestImageButton"
+        app:layout_constraintTop_toTopOf="@+id/lightestImageButton"
+        app:srcCompat="@drawable/fui_ic_check_circle_black_128dp" />
+
+    <ImageView
+        android:id="@+id/lighterCheck"
+        android:layout_width="107dp"
+        android:layout_height="112dp"
+        app:layout_constraintBottom_toBottomOf="@+id/lighterImageButton"
+        app:layout_constraintEnd_toEndOf="@+id/lighterImageButton"
+        app:layout_constraintStart_toStartOf="@+id/lighterImageButton"
+        app:layout_constraintTop_toTopOf="@+id/lighterImageButton"
+        app:srcCompat="@drawable/fui_ic_check_circle_black_128dp" />
+
+    <ImageView
+        android:id="@+id/lightCheck"
+        android:layout_width="107dp"
+        android:layout_height="112dp"
+        app:layout_constraintBottom_toBottomOf="@+id/lightImageButton"
+        app:layout_constraintEnd_toEndOf="@+id/lightImageButton"
+        app:layout_constraintStart_toStartOf="@+id/lightImageButton"
+        app:layout_constraintTop_toTopOf="@+id/lightImageButton"
+        app:srcCompat="@drawable/fui_ic_check_circle_black_128dp" />
+
+    <ImageView
+        android:id="@+id/darkCheck"
+        android:layout_width="107dp"
+        android:layout_height="112dp"
+        app:layout_constraintBottom_toBottomOf="@+id/darkImageButton"
+        app:layout_constraintEnd_toEndOf="@+id/darkImageButton"
+        app:layout_constraintStart_toStartOf="@+id/darkImageButton"
+        app:layout_constraintTop_toTopOf="@+id/darkImageButton"
+        app:srcCompat="@drawable/fui_ic_check_circle_black_128dp" />
+
+    <ImageView
+        android:id="@+id/darkerCheck"
+        android:layout_width="107dp"
+        android:layout_height="112dp"
+        app:layout_constraintBottom_toBottomOf="@+id/darkerImageButton"
+        app:layout_constraintEnd_toEndOf="@+id/darkerImageButton"
+        app:layout_constraintStart_toStartOf="@+id/darkerImageButton"
+        app:layout_constraintTop_toTopOf="@+id/darkerImageButton"
+        app:srcCompat="@drawable/fui_ic_check_circle_black_128dp" />
+
+    <ImageView
+        android:id="@+id/darkestCheck"
+        android:layout_width="107dp"
+        android:layout_height="112dp"
+        app:layout_constraintBottom_toBottomOf="@+id/darkestImageButton"
+        app:layout_constraintEnd_toEndOf="@+id/darkestImageButton"
+        app:layout_constraintHorizontal_bias="0.555"
+        app:layout_constraintStart_toStartOf="@+id/darkestImageButton"
+        app:layout_constraintTop_toTopOf="@+id/darkestImageButton"
+        app:srcCompat="@drawable/fui_ic_check_circle_black_128dp" />
+
+    <TextView
+        android:id="@+id/whyTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginBottom="10dp"
+        android:text="Why these six skin tones?"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

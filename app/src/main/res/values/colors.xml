@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#cd7f32</color>
+    <color name="colorPrimaryDark">#b87333 </color>
+    <color name="colorAccent">#638fd6</color>
+
+    <color name="lightestSkinTone">#F2D4B0</color>
+    <color name="lighterSkinTone">#EBCB92</color>
+    <color name="lightSkinTone">#D6AD77</color>
+    <color name="darkSkinTone">#BC7654</color>
+    <color name="darkerSkinTone">#7E5039</color>
+    <color name="darkestSkinTone">#2F1C15</color>
+</resources>

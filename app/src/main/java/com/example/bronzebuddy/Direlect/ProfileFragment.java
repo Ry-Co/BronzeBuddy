@@ -1,0 +1,27 @@
+package com.example.bronzebuddy.Direlect;
+
+import android.os.Bundle;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
+import androidx.fragment.app.Fragment;
+
+import com.example.bronzebuddy.R;
+
+
+public class ProfileFragment extends Fragment {
+    @Nullable
+    @Override
+    public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
+        View v = inflater.inflate(R.layout.skin_tone_fragment, container, false);
+        initLayout(v);
+        return v;
+    }
+
+    public void initLayout(View v){
+
+    }
+}

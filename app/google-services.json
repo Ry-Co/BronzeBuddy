@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "166826293507",
+    "firebase_url": "https://bronzebuddy-3f945.firebaseio.com",
+    "project_id": "bronzebuddy-3f945",
+    "storage_bucket": "bronzebuddy-3f945.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:166826293507:android:dd609ce33084d78e",
+        "android_client_info": {
+          "package_name": "com.example.bronzebuddy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "166826293507-7htmff6b82is099jgvru9hj57jgvavu6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.bronzebuddy",
+            "certificate_hash": "3468e227568041c69b11612e79a9023c009c9db4"
+          }
+        },
+        {
+          "client_id": "166826293507-gi786b419ikdk6m7b67d6jb3ps4qequ4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCC2M-EG7Q0sFWLm6ZJ8Pp42PLDkOC3Y6o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "166826293507-gi786b419ikdk6m7b67d6jb3ps4qequ4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
